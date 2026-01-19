@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   output: "export",
   basePath: "/nambu-coir-prototype",
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
