@@ -12,19 +12,19 @@ import Image from "next/image";
 const SLIDES = [
   {
     id: 1,
-    image: "/images/coconutfarm.jpg",
+    image: "/images/coconuts.jpg",
     title: "Sustainable Coir Solutions",
     subtitle: "From Nature to Your Garden. Premium Eco-Friendly Products.",
   },
   {
     id: 2,
-    image: "https://www.pexels.com/photo/green-coconut-tree-lot-2371778/",
+    image: "/images/coconutfarm.jpg",
     title: "Eco-Friendly & Organic",
     subtitle: "100% Biodegradable Coir Peat for Advanced Horticulture.",
   },
   {
     id: 3,
-    image: "https://www.pexels.com/photo/green-coconut-tree-lot-2371778/",
+    image: "/images/coir.jpg",
     title: "Global Export Quality",
     subtitle: "Serving sustainable agriculture needs worldwide.",
   },

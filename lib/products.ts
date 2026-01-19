@@ -26,7 +26,7 @@ export const PRODUCTS: Product[] = [
       Weight: "1 KG (standard)",
       Expansion: "High volume after hydration",
     },
-    image: "https://nambucoir.com/img/5_kg_Coco_block.jpg", // Placeholder
+    image: "https://nambucoir.com/img/coco_grow_bags.jpg", // Placeholder
   },
   {
     id: "coco-chips-5kg",
@@ -74,7 +74,7 @@ export const PRODUCTS: Product[] = [
       Expansion: "9-11 Liters",
       pH: "5.8 - 6.8",
     },
-    image: "https://nambucoir.com/img/5_kg_Coco_block.jpg",
+    image: "https://nambucoir.com/img/650_gm_coco_block.jpg",
   },
   {
     id: "fibre-bale",
@@ -89,7 +89,7 @@ export const PRODUCTS: Product[] = [
       Impurity: "< 3%",
       Moisture: "< 15%",
     },
-    image: "https://nambucoir.com/img/5_kg_Coco_block.jpg",
+    image: "https://nambucoir.com/img/fibre_bale.jpg",
   },
   {
     id: "loose-bags",
@@ -107,6 +107,6 @@ export const PRODUCTS: Product[] = [
       pH: "5.8 - 6.8",
       Mix: "Customizable (with perlite/chips)",
     },
-    image: "https://nambucoir.com/img/5_kg_Coco_block.jpg", // Placeholder
+    image: "https://nambucoir.com/img/husk_chips.jpg", // Placeholder
   },
 ];
