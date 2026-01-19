@@ -8,23 +8,25 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 
-// Placeholder images - would normally be actual assets
+// Helper to handle GitHub Pages base path
+const BASE_PATH = process.env.NODE_ENV === "production" ? "/nambu-coir-prototype" : "";
+
 const SLIDES = [
   {
     id: 1,
-    image: "/images/coconuts.jpg",
+    image: `${BASE_PATH}/images/coconuts.jpg`,
     title: "Sustainable Coir Solutions",
     subtitle: "From Nature to Your Garden. Premium Eco-Friendly Products.",
   },
   {
     id: 2,
-    image: "/images/coconutfarm.jpg",
+    image: `${BASE_PATH}/images/coconutfarm.jpg`,
     title: "Eco-Friendly & Organic",
     subtitle: "100% Biodegradable Coir Peat for Advanced Horticulture.",
   },
   {
     id: 3,
-    image: "/images/coir.jpg",
+    image: `${BASE_PATH}/images/coir.jpg`,
     title: "Global Export Quality",
     subtitle: "Serving sustainable agriculture needs worldwide.",
   },
@@ -133,11 +135,10 @@ export function Hero() {
           <button
             key={index}
             onClick={() => emblaApi?.scrollTo(index)}
-            className={`w-3 h-3 rounded-full transition-all ${
-              index === selectedIndex
+            className={`w-3 h-3 rounded-full transition-all ${index === selectedIndex
                 ? "bg-primary w-8"
                 : "bg-white/50 hover:bg-white/80"
-            }`}
+              }`}
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}
